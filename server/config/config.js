@@ -1,7 +1,7 @@
 const config = {
     production:{
         SECRET: process.env.SECRET,
-        DATABASE: 'mongodb+srv://anton:Enot282828@booksreview-myfpl.mongodb.net/test?retryWrites=true'
+        DATABASE: process.env.MONGODB_URI
     },
     default:{
         SECRET: 'SUPERSECRETPASSWORD123',
